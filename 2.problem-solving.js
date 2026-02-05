@@ -25,12 +25,12 @@ function analyzeMarks(marksObj){
         // console.log(subject , "->", marks);
         total = total+marks;
 
-        if(marks>highestMarks){
+         if(marks>highestMarks){
             highestMarks= marks;
             highestSubject = subject;
         }
 
-        else if(marks<lowestMarks){
+        else if (marks<lowestMarks){
             lowestMarks=marks;
             lowestSubject = subject;
         }
@@ -46,5 +46,11 @@ function analyzeMarks(marksObj){
     }
 }
 
-let Output = analyzeMarks( { math: 78, english: 65, physics: 88, bangla: 55 });
-console.log(Output);
+ let Output = analyzeMarks( { math: 78, english: 65, physics: 88, bangla: 55 });
+ console.log(Output);
+
+
+
+
+
+

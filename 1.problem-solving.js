@@ -39,3 +39,4 @@ function wordFrequency(sentence){
 let Output = wordFrequency( "I love JS and I love coding and JS is Fun");
 console.log(Output);
 
+
